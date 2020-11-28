@@ -1,0 +1,10 @@
+title: NoTeX - Concept
+theme: jekyll-theme-slate
+author: Luke J Andrews
+email: l.j.andrews.uk@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Tex-like conceptual note taking tool
+# social links
+github_username: LukJA
+
+show_excerpts: true # set to false to remove excerpts on the homepage
