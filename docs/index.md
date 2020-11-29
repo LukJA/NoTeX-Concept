@@ -1,6 +1,7 @@
 ---
 layout: home
-title: NoTeX Concept Blog
+title: NoTeX Concept Home
 ---
 
-## Home h2
+NoTeX is a possible concept for a simple document and report generation program, with a focus on undergraduate level notes and reports.
+For more information see about, or see the posts below...
