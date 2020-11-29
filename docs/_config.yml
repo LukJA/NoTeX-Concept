@@ -1,5 +1,8 @@
 title: NoTeX - Concept
 theme: minima
+minima:
+  skin: dark
+  
 author: Luke J Andrews
 email: l.j.andrews.uk@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
