@@ -10,4 +10,8 @@ date: 2020-11-28
 
 In other words, LaTeX converts this:
 
+![LaTeX Code](/assets/P1_LaTeXCode.png)
 
+To This:
+
+![LaTeX Code](/assets/P1_LaTeXOutput.png)
