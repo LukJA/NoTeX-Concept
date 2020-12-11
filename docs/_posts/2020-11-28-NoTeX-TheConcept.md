@@ -20,11 +20,11 @@ In other words, LaTeX converts **this**:
 
 To **This**:
 
-![LaTeX Code](assets/P1_LaTeXOutput.png)
+![LaTeX Output .pdf]({{ site.url }}{{ site.baseurl }}/assets/P1_LaTeXOutput.png)
 
 Which is pretty cool, but unfortunately it's often accompanied by **this**:
 
-![Latex Error](../assets/P1_LaTeXError.png)
+![Latex Error]({{ site.url }}{{ site.baseurl }}/assets/P1_LaTeXError.png)
 
 In short, LaTeX lets you **script documents**, with consistent results and a myriad of incredibly powerful tools and extension packages. If you're an experienced TeX-er, or are willing to spend a fair amount of time hammering it into submission, the **results look very good!**
 
