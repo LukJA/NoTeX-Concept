@@ -75,5 +75,3 @@ A non-exhaustive spec list of what I want to achieve is as follow:
 Currently I am in the process of developing the spec, and designing a project architecture.
 
 **If you have a feature request to add to the spec, that you believe would make a tool such as this more valuable to you (e.g. include a built in plotting tool for basic sketching) please post a *Feature Request* as a [GitHub Issue](https://github.com/LukJA/NoTeX-Concept/issues).**
-
-
