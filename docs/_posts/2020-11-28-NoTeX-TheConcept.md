@@ -16,11 +16,11 @@ LaTeX was designed with academic papers and documents as its focus, with simple 
 
 In other words, LaTeX converts **this**:
 
-![LaTeX Code](../assets/P1_LaTeXCode.png)
+![LaTeX Code](/assets/P1_LaTeXCode.png)
 
 To **This**:
 
-![LaTeX Code](../assets/P1_LaTeXOutput.png)
+![LaTeX Code](assets/P1_LaTeXOutput.png)
 
 Which is pretty cool, but unfortunately it's often accompanied by **this**:
 
