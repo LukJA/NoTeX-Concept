@@ -34,11 +34,11 @@ In short, LaTeX lets you **script documents**, with consistent results and a myr
 
 LaTeX is pretty cool and my goto for these documents, but I hate LaTeX with a burning passion.
 
-- Every file I have created with **LaTeX has taken far far longer** than the same document would likely have taken in Word, or even LibreOffice for that matter.
+- Every file I have created with **LaTeX has taken far far longer** than the same document would likely have taken in Word, or even LibreOffice for that matter. I spend 90% of my time fixing and fiddling, and 10% writing.
 
-- If online **services such as [OverLeaf](https://overleaf.com)** didn't exist LaTeX would be a no-go, as choosing and setting up a single LaTeX distribution (e.g. TeX Live or MiKeTeX) is overly **convoluted and annoying**.
+- If online **services such as [OverLeaf](https://overleaf.com)** didn't exist LaTeX would be a no-go, as choosing and setting up a single LaTeX distribution (e.g. TeX Live or MiKeTeX) is honestly just **annoying**.
 
-- Super simple documents still result in **abstract errors**, but **will compile** into a .pdf file regardless of the fact.
+- Simpler documents still result in **abstract errors**, but **will compile** into a .pdf file regardless of the fact.
 
 - LaTeX is far more functional and powerful than is necessary for the files I work on, and hence includes **much greater complexity than I actually require.**
 
@@ -52,7 +52,7 @@ The Resolution:
 ## NoTeX-Concept - a LaTeX style Doc Gen with the needs of undergraduate STEM students at its core
 
 The idea is to create a Doc Gen tool of a similar style and functionality or LaTeX, but designed to meet the needs of undergraduate stem students [myself].
-A non-exhaustive spec list of what I want to achieve is as follow:
+A non-exhaustive back of the envelope spec list of what I want to achieve is as follow:
 
 - A Simplistic, Programmatic and strongly checked Document Generator that converts from a script to .pdf's or similar.
 
@@ -72,6 +72,6 @@ A non-exhaustive spec list of what I want to achieve is as follow:
 
 - It may consist of multiple separate tools that combine, (UI, Daemon etc.)
 
-Currently I am in the process of developing the spec, and designing a project architecture.
+See the next post for a look at building a more comprehensive project spec.
 
 **If you have a feature request to add to the spec, that you believe would make a tool such as this more valuable to you (e.g. include a built in plotting tool for basic sketching) please post a *Feature Request* as a [GitHub Issue](https://github.com/LukJA/NoTeX-Concept/issues).**
