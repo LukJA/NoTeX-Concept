@@ -16,7 +16,7 @@ LaTeX was designed with academic papers and documents as its focus, with simple 
 
 In other words, LaTeX converts **this**:
 
-![LaTeX Code](/assets/P1_LaTeXCode.png)
+![LaTeX Code](./img/P1_LaTeXCode.png)
 
 To **This**:
 
