@@ -1,8 +1,8 @@
 ---
 layout: default
-title: To DO:
+title: ToDo:
 ---
-## Project Preparation To Do:
+## ToDo list:
 
 - [X] Conceptual Overview
 - [ ] High Level Spec
