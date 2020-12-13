@@ -2,7 +2,7 @@
 layout: default
 title: ToDo
 ---
-## ToDo list:
+## ToDo
 
 - [X] Conceptual Overview
 - [ ] High Level Spec
