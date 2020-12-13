@@ -2,6 +2,6 @@
 layout: default
 title: About
 ---
-# About
+## About
 
 Not much at the moment if we're honest.
