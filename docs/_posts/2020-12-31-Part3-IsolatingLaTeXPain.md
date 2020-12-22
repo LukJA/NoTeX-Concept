@@ -8,6 +8,7 @@ published: true
 ## LaTeX - Pain Points and Architecture
 
 ### Pain
+
 #### 1 - Errors and Debugging
 
 In my experience a key frustration is hard-to-read errors and warnings, often due to unenclosed braces or missing delimiters etc. A more strongly linted schema to prevent errors waiting until compile time would be appreciated, and an error system optimized for readability is also a key upgrade.
