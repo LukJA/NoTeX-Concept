@@ -21,3 +21,7 @@ Contribution are welcome! I expect this project to be a sizable undertaking...
 - https://www.reportlab.com/dev/opensource/pyrxp/
 - https://pyfpdf.readthedocs.io/en/latest/index.html
 - https://kivy.org/doc/stable/api-kivy.input.html
+
+### Notes
+
+- To speed up diagram drawings, positions could be aliased, and the aliases used to create lines and sketches much faster, and allow for multiple lines to be modified by moving a single point reference.
