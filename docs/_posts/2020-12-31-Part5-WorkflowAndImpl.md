@@ -1,24 +1,14 @@
 ---
 layout: post
-title: "NoTeX Part 4 - Programmatic Thoughts (DOM and language architecture)"
+title: "NoTeX Part 5 - Workflow and Software Implementation"
 date: 2020-12-31
 published: false
 ---
 
-## Programmatic Thoughts (DOM and language architecture)
+## Software Implementation
 
-### Language Architecture
-
-#### Document Model
+Although likely not the most sensible choice, - a functional language like **OCaml** would probably do a better job - **Python3** offers a very readable, quick and hopefully **contributive** option.
 
 
 
-#### Editor Input
-
-**We** can be certain that a function character will be required to identify keywords from prose, for which LaTeX proposed the backslash `\`.
-
-I propose either the pipe `|`, the *whatever this is* `¬`, the fullstop `.` or the backquote itself ~`~.
-
-The first two are optimal as arguable the least frequently used glyphs on a keyboard, but both require pressing the shift key, which is slow.
-
-Alternatively the fullstop and backtick both are immediately available, but more frequently needed in general prose.
+## Workflow
