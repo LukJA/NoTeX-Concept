@@ -6,8 +6,8 @@ title: ToDo
 
 - [X] Conceptual Overview
 - [ ] High Level Spec
-- [ ] Latex Pain Points
-- [ ] Latex Architectural design
+- [X] Latex Pain Points
+- [X] Latex Architectural design
 - [ ] Architecture Thoughts (workflow)
 - [ ] Programmatic Thoughts (DOM and language architecture)
 - [ ] Diagrams and Images
