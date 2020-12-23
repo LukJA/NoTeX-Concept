@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "NoTeX Part 5 - Workflow and Software Implementation"
-date: 2020-12-31
-published: false
+date: 2020-12-23
+published: true
 ---
 
 ## Software Implementation
