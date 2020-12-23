@@ -3,7 +3,9 @@ layout: home
 title: NoTeX Concept Home
 ---
 
-NoTeX is a possible concept for a simple document and report generation program, with a focus on undergraduate level notes and reports.
+Musings on improving LaTeX, and NoTeX a possible concept for a simple document and report generation program with a focus on undergraduate level notes and reports, as well as a programmatic diagram.
+
+**DISCLAIMER** - I genuinely have not got a clue what I am doing, take all content as opinion without merit...
 
 ## Contributions
 
