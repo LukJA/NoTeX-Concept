@@ -11,6 +11,18 @@ When it comes to writing reports, diagrams sketches and pictures are 'worth a th
 
 For this reason, **the ability to quickly and clearly generate diagrams and sketches is the main reason I wanted to begin to work on this concept.** Hence development will begin with the diagram component, and the development of this component will act as a precursor and a playground in which features of the broader NoTeX tool can be tested and conceptualized.
 
+### Programmatic Diagram Concept Ideas
+
+**It needs to be AS Fast AS a Pen and Paper**
+
+- Use a reference based coordinate system to speed up plotting
+- Implement all common diagram forms quickly
+- Test against all lecture note diagrams ive seen.
+
+### Graphics libraries to Leverage
+
+Cairo seems like the most powerful option, with the target being SVG files that can be integrated into a pdf or used in any other application equally well.
+
 ### Python Application Distribution
 
 #### Overview
@@ -35,7 +47,7 @@ The distribution options broadly go from raw python file through to a containeri
 
 However, making python appimages seems... [complex](https://github.com/AppImage/AppImageKit/wiki/Bundling-Python-apps), but possible! see [For Developers](https://github.com/niess/python-appimage#for-applications-developers). An example appimage python tool exists [https://github.com/xonsh/xonsh](https://github.com/xonsh/xonsh). By contrast Snaps have a specific python plugin and support from the very start.
 
-#### Looking at Xonsh Appimage Build
+#### Looking at Xonsh AppImage Build
 
 Xonsh uses the [python-appimage](https://github.com/niess/python-appimage#for-applications-developers) tool to create and package the tool with a pre-made appimage executable - neat!
 
@@ -55,3 +67,4 @@ python -m python_appimage build app ./appimage
 ./xonsh-x86_64.AppImage
 ```
 
+Seems like trying to replicate this is a good start...
