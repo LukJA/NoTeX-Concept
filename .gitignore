@@ -1,3 +1,6 @@
 pack_tutorial/build
 pack_tutorial/dist
 pack_tutorial/example_pkg_LukJA.egg-info
+.pytest_cache/
+pack_tutorial/example_pkg/__pycache__/
+pack_tutorial/tests/__pycache__/
