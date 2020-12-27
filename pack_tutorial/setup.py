@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="example-pkg-LukJA", # Unique PyPI Package Name
-    version="0.0.2",
+    version="0.0.3",
     author="Luke Andrews",
     author_email="l.j.andrews.uk@gmail.com",
     description="A small example package",
