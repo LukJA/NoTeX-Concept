@@ -30,6 +30,8 @@ Contribution are welcome! I expect this project to be a sizable undertaking...
 
 ### Builds
 
+N.B. all development is done in a local venv setup
+
 Setuptools build:
 python setup.py sdist bdist_wheel
 
@@ -39,3 +41,12 @@ python3 -m twine upload --repository testpypi dist/*
 Twine Download:
 pip install -vvv --no-cache-dir --index-url https://test.pypi.org/simple/ --no-deps example-pkg-LukJA
 pip install --no-cache-dir -i https://test.pypi.org/simple/ example-pkg-LukJA
+
+Symlinking module locally for development:
+pip install -e .
+then the tests can use the local copy
+
+to test:
+pytest
+
+
