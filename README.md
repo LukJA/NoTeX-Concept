@@ -27,3 +27,15 @@ Contribution are welcome! I expect this project to be a sizable undertaking...
 ### Notes
 
 - To speed up diagram drawings, positions could be aliased, and the aliases used to create lines and sketches much faster, and allow for multiple lines to be modified by moving a single point reference.
+
+### Builds
+
+Setuptools build:
+python setup.py sdist bdist_wheel
+
+Twine upload:
+python3 -m twine upload --repository testpypi dist/*
+
+Twine Download:
+pip install -vvv --no-cache-dir --index-url https://test.pypi.org/simple/ --no-deps example-pkg-LukJA
+pip install --no-cache-dir -i https://test.pypi.org/simple/ example-pkg-LukJA

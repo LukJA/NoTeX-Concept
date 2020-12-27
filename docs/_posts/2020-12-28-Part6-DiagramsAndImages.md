@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NoTeX Part 5 - Diagrams and Images"
+title: "NoTeX Part 6 - Diagrams and Images"
 date: 2020-12-28
 published: true
 ---
