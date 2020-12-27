@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="example-pkg-LukJA", # Unique PyPI Package Name
-    version="0.0.1",
+    version="0.0.2",
     author="Luke Andrews",
     author_email="l.j.andrews.uk@gmail.com",
     description="A small example package",
@@ -22,5 +22,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={
+        'console_scripts': [
+            'hello-world-demo=example_pkg:hello_world',
+            ],
+    },
     python_requires='>=3.6',
 )
