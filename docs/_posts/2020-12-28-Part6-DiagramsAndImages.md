@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "NoTeX Part 5 - Diagrams and Images"
-date: 2020-12-31
-published: false
+date: 2020-12-28
+published: true
 ---
 
 ## Diagrams and Images
@@ -21,7 +21,11 @@ For this reason, **the ability to quickly and clearly generate diagrams and sket
 
 ### Graphics libraries to Leverage
 
-Cairo seems like the most powerful option, with the target being SVG files that can be integrated into a pdf or used in any other application equally well.
+Cairo seems like the most powerful option, with the target being SVG files that can be integrated into a pdf or used in any other application equally well. Cairo also has bindings for a variety of relevant languages including C and Python.
+
+### Project Architecture
+
+There are 2 use-case situations I would like to design for provisionally: An independent tool, which can parse an input string and produce a svg file for the resultant diagram - in effect a self-contained compiler for a diagram description script. Alternatively an importable python module with the same functionality, that can then be leveraged in a wider scenario (see previous posts for my murmurings on NoTeX).
 
 ### Python Application Distribution
 
@@ -68,3 +72,13 @@ python -m python_appimage build app ./appimage
 ```
 
 Seems like trying to replicate this is a good start...
+
+#### Pip and PyPI - Python Tools and Libraries for development
+
+AppImages and the like are ideal for non-techy people in a production environment, but would require a separate Python module packaging system to be implemented.
+
+Alternatively, **Setuptools**, a system commonly used to manage modules, facilitates the creation of 'entry_points' - auto-generated cli tools based on python source code but using the system-wide python interpreter. This method would allow a single install process for both the python module and the self-contained tool. Pip and PyPI can then be used as the repository to access the tools.
+
+The details of how this is done can be found in [this tutorial](https://packaging.python.org/tutorials/packaging-projects/)
+
+More to come...
