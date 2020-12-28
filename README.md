@@ -16,7 +16,7 @@ Contribution are welcome! I expect this project to be a sizable undertaking...
 
 **Code Contributions** - Yet to begin, but get in touch!
 
-### Useful Options
+### Useful Links
 
 - https://towardsdatascience.com/creating-pdf-files-with-python-ad3ccadfae0f
 - https://en.wikipedia.org/wiki/PDF
@@ -28,25 +28,26 @@ Contribution are welcome! I expect this project to be a sizable undertaking...
 
 - To speed up diagram drawings, positions could be aliased, and the aliases used to create lines and sketches much faster, and allow for multiple lines to be modified by moving a single point reference.
 
-### Builds
+### pack_tutorial pip builds
 
 N.B. all development is done in a local venv setup
 
-Setuptools build:
+```bash
+python3 -m venv .
+
+# Setuptools build:
 python setup.py sdist bdist_wheel
 
-Twine upload:
+# Twine upload:
 python3 -m twine upload --repository testpypi dist/*
 
-Twine Download:
+# Twine Download:
 pip install -vvv --no-cache-dir --index-url https://test.pypi.org/simple/ --no-deps example-pkg-LukJA
-pip install --no-cache-dir -i https://test.pypi.org/simple/ example-pkg-LukJA
 
-Symlinking module locally for development:
+# Symlinking module locally for development:
 pip install -e .
-then the tests can use the local copy
+# ~ then the integration tests can use the local raw dev files  ~
 
-to test:
+# to test:
 pytest
-
-
+```
