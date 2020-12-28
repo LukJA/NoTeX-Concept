@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>example_pkg</id>
+    <metadata_license>MIT</metadata_license>
+    <project_license>Python-2.0</project_license>
+    <name>example_pkg</name>
+    <summary>testing... The time has come to... example_pkg</summary>
+    <description>
+        <p>  Python {{ python-fullversion }}  with example_pkg in an appimage
+        </p>
+    </description>
+    <launchable type="desktop-id">example_pkg.desktop</launchable>
+    <url type="homepage">https://github.com/LukJA/NoTeX-Concept</url>
+    <provides>
+        <binary>python{{ python-version }}</binary>
+    </provides>
+</component>

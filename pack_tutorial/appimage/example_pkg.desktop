@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=example_pkg
+Exec=example_pkg
+Comment= testing... The time has come to... example_pkg
+Icon=python
+Categories=System;
+Terminal=true
